@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Robot', sans-serif;
+    height: 80vh;
+    background-color: #27272c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 25px;
+    color: rgb(218, 218, 218);
+}
+
+.mainbox__kalkyl{
+    width: 50%;
+    padding: 30px;
+    margin-top: 10%;
+    border: 1px solid rgba(2555, 2555, 255, 0.1);
+    border-radius: 20px;
+    background-color: #1e1e22;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+.main__title{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 100;
+    color: #fefefe;
+    font-style: italic;
+}
+
+.kalkyl__form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    gap: 20px;
+}
+
+.first__label, .second__label{
+    display: inline-grid;
+    padding: 20px;
+    gap: 20px;
+}
+
+#first__name, #second__name{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #27272c;
+    border: none;
+    color: white;
+}
+
+.radio__div, .form__checkbox{
+    padding: 20px;
+}
+
+.submit__btn{
+    padding: 20px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: #4637cfa4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    justify-self: center;
+}

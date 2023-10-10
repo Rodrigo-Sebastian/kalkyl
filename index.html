@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <title>Kalkyl</title>
+</head>
+<body>
+    <main class="mainbox__kalkyl">
+        <!--Form-->
+        <h1 class="main__title">Hej! Skriv gärna ditt namn, välj ditt kön & vilken kurs du skulle vilja läsa!</h1>
+        <form action="https://httpbin.org/anything" method="post" class="kalkyl__form">
+            <!--Första textruta-->
+            <div class="first__label">
+                <label for="" class="label">Frist name</label>
+                <input type="text" id="first__name" name="name" value="Your name">
+            </div>
+            <!--andra textruta-->      
+            <div class="second__label">
+                <label for="" class="label">Last name</label>
+                <input type="text" id="second__name" name="name" value="Your last name">
+            </div>
+            <!--Radio knapp-->
+            <div class="radio__div">
+                <input type="radio" id="male" name="male" class="first__radio">
+                <label for="male">Male</label>
+            </div>
+            <div class="radio__div">
+                <input type="radio" id="female" name="female" class="second__radio">
+                <label for="female">Female</label>
+            </div>
+            <!--Checkbox-->
+            <div class="form__checkbox">
+                <input type="checkbox" name="html" value="html" id="html">
+                <label class="form__check">HTML</label>
+            </div>
+            <div class="form__checkbox">
+                <input type="checkbox" name="css" value="css" id="css">
+                <label class="form__check">css</label>
+            </div>
+            <div class="form__checkbox">
+                <input type="checkbox" name="javascript" value="javascript" id="javascript">
+                <label class="form__check">javascript</label>
+            </div>
+            <div class="form__checkbox">
+                <input type="checkbox" value="react" name="react" id="react">
+                <label class="form__check">react</label>
+            </div>
+            <!--submit-knapp-->
+            <input type="submit" class="submit__btn" value="send form">
+        </form>
+    </main>
+    <script src="/main.js"></script>
+</body>
+</html>
